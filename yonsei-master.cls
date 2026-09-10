@@ -1,13 +1,13 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{yonsei-thesis}[2026/09/10 Yonsei University Graduate School thesis template]
+\ProvidesClass{yonsei-master}[2026/09/10 Yonsei University Graduate School Master thesis template]
 
-% English doctoral-thesis form based on the 2026 Graduate School MS Word guide.
+% English master's-thesis form based on the 2026 Graduate School MS Word guide.
 % Compile with XeLaTeX (recommended) or LuaLaTeX.
 \LoadClass[10pt,a4paper,oneside,openany]{report}
 
 \RequirePackage{iftex}
 \ifPDFTeX
-  \ClassError{yonsei-thesis}{This template requires XeLaTeX or LuaLaTeX}{Use XeLaTeX in Overleaf or your local editor.}
+  \ClassError{yonsei-master}{This template requires XeLaTeX or LuaLaTeX}{Use XeLaTeX in Overleaf or your local editor.}
 \fi
 
 \RequirePackage{fontspec}
@@ -128,21 +128,17 @@
 \newcommand{\committeechair}[1]{\gdef\YS@chair{#1}}
 \newcommand{\committeememberA}[1]{\gdef\YS@memberA{#1}}
 \newcommand{\committeememberB}[1]{\gdef\YS@memberB{#1}}
-\newcommand{\committeememberC}[1]{\gdef\YS@memberC{#1}}
-\newcommand{\committeememberD}[1]{\gdef\YS@memberD{#1}}
 
 \newcommand{\YS@title}{Your Dissertation Title}
 \newcommand{\YS@author}{Hong, Gildong}
 \newcommand{\YS@department}{Department of XXX}
 \newcommand{\YS@advisor}{Prof. Advisor Name}
-\newcommand{\YS@degree}{Doctor of Philosophy}
+\newcommand{\YS@degree}{Master of Science}
 \newcommand{\YS@submissiondate}{February 2027}
 \newcommand{\YS@approvaldate}{February 2027}
 \newcommand{\YS@chair}{Prof. Committee Chair}
 \newcommand{\YS@memberA}{Prof. Committee Member 1}
 \newcommand{\YS@memberB}{Prof. Committee Member 2}
-\newcommand{\YS@memberC}{Prof. Committee Member 3}
-\newcommand{\YS@memberD}{Prof. Committee Member 4}
 
 % Internal helper: fixed-height block matching the Word form's table rows.
 \newcommand{\YSblock}[3][c]{%
@@ -197,7 +193,7 @@
   \YSblock[c]{1.00cm}{}%
   \YSblock[t]{6.00cm}{%
     \YScenter{\bfseries\fontsize{16pt}{20.8pt}\selectfont
-      A Dissertation Submitted\\
+      A Master's Thesis Submitted\\
       to the \YS@department\\
       and the Committee of the Graduate School\\
       of Yonsei University in Partial Fulfillment of the\\
@@ -236,15 +232,13 @@
   }%
   \YSblock[t]{1.95cm}{%
     \YScenter{\bfseries\fontsize{13pt}{13pt}\selectfont
-      This certifies that the dissertation\\
+      This certifies that the master's thesis\\
       of \YS@author\ is approved.}%
   }%
   \YSblock[c]{2.00cm}{\fontsize{13pt}{13pt}\selectfont\YSsignatureline{Committee Chair}{\YS@chair}}%
   \YSblock[c]{2.00cm}{\fontsize{13pt}{13pt}\selectfont\YSsignatureline{Committee Member}{\YS@memberA}}%
   \YSblock[c]{2.00cm}{\fontsize{13pt}{13pt}\selectfont\YSsignatureline{Committee Member}{\YS@memberB}}%
-  \YSblock[c]{2.00cm}{\fontsize{13pt}{13pt}\selectfont\YSsignatureline{Committee Member}{\YS@memberC}}%
-  \YSblock[c]{2.00cm}{\fontsize{13pt}{13pt}\selectfont\YSsignatureline{Committee Member}{\YS@memberD}}%
-  \YSblock[c]{1.58cm}{}%
+  \YSblock[c]{5.58cm}{}%
   \YSblock[b]{3.04cm}{%
     \YScenter{\bfseries\fontsize{13pt}{15pt}\selectfont
       \YS@department\\
