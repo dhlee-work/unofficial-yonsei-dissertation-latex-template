@@ -44,3 +44,7 @@ In Overleaf, select **XeLaTeX** as the compiler.
 - The guide allows 1.5 or double spacing. This template defaults to 1.5 spacing.
 - Bibliography/citation style is discipline-dependent in the guide. `plainnat` is included only as a working example; replace it with the style approved by your department/advisor.
 - If exact front-page wording differs for your department or degree, edit `yonsei-thesis.cls` only after confirming the required official wording.
+
+## Generative AI Declaration
+
+Generative AI (ChatGPT, OpenAI) was used in preparing this LaTeX template.
