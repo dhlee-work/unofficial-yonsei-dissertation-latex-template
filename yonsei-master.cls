@@ -113,6 +113,7 @@
 \renewcommand{\cftchappagefont}{\normalfont}
 \renewcommand{\cftsecfont}{\normalfont}
 \renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftchapaftersnum}{.}
 \setcounter{tocdepth}{2}
 
 % --------------------------------------------------------------------------
