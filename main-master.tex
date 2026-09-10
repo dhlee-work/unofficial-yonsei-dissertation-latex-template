@@ -1,0 +1,40 @@
+% !TeX program = xelatex
+\documentclass{yonsei-master}
+
+\input{metadata-master}
+
+\begin{document}
+
+% Required fixed-form pages
+\makecoverpage
+\makeyonseititlepage
+\makesignaturepage
+
+% Optional acknowledgements
+\input{frontmatter/acknowledgements}
+
+% Preliminary pages: TOC starts at roman page i
+\yonseifrontmatter
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\input{frontmatter/abstract}
+
+% Main text: Arabic page numbering starts at 1
+\yonseimainmatter
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+
+% Appendices (if any)
+\appendix
+\input{backmatter/appendixA}
+
+% References
+\input{backmatter/references}
+
+% Korean abstract
+\input{frontmatter/abstract-ko}
+
+\end{document}
