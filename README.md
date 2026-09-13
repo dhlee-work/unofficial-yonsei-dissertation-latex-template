@@ -6,6 +6,9 @@ Unofficial LaTeX implementation of the Yonsei University Graduate School thesis/
 
 ## Update Notifications
 
+2026.09.13 Main-*.tex : 기본 패키지 추가
+
+
 ## Choose the main file
 
 - Doctoral thesis: `main-phd.tex`
