@@ -1,6 +1,6 @@
 # Yonsei University Graduate School Dissertation/Thesis LaTeX Template (2026 English forms)
 
-Unofficial LaTeX implementation of the 2026 English MS Word thesis forms for **doctoral** and **master's** theses.
+Unofficial LaTeX implementation of the 2026 English MS Word thesis forms for **doctoral** and **master's** theses.   
 2026년 연세대학교 학위논문 (박사/석사) 텍 양식
 ## Choose the main file
 
