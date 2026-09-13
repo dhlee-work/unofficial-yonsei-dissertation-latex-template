@@ -1,7 +1,9 @@
-# Yonsei University Graduate School Dissertation/Thesis LaTeX Template (2027/Feb English forms)
+# Yonsei University Graduate School Dissertation/Thesis LaTeX Template (February 2027)
 
-Unofficial LaTeX implementation of the 2027/Feb English MS Word thesis forms for **doctoral** and **master's** theses.   
-2027년 2월 제출 연세대학교 학위논문 (박사/석사) 텍 양식
+Unofficial LaTeX implementation of the Yonsei University Graduate School thesis/dissertation format for doctoral dissertations and master's theses, based on the official English MS Word forms for February 2027 submission.
+
+2027년 2월 제출용 연세대학교 대학원 박사학위논문 및 석사학위논문 양식을 LaTeX으로 구현한 비공식 템플릿입니다.
+
 ## Choose the main file
 
 - Doctoral thesis: `main-phd.tex`
