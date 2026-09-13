@@ -4,6 +4,8 @@ Unofficial LaTeX implementation of the Yonsei University Graduate School thesis/
 
 2027년 2월 제출용 연세대학교 대학원 박사학위논문 및 석사학위논문 양식을 LaTeX으로 구현한 비공식 템플릿입니다.
 
+## Update Notifications
+
 ## Choose the main file
 
 - Doctoral thesis: `main-phd.tex`
